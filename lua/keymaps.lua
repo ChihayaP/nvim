@@ -34,3 +34,4 @@ vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true, silent = true})
