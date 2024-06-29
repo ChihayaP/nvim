@@ -23,6 +23,8 @@ for i = 1, 9 do
 end
 vim.keymap.set('n', '<leader>j', '<Cmd>BufferLineCyclePrev<CR>')
 vim.keymap.set('n', '<leader>k', '<Cmd>BufferLineCycleNext<CR>')
+vim.keymap.set('n', '\\s', '<Cmd>BufferLineMovePrev<CR>')
+vim.keymap.set('n', '\\d', '<Cmd>BufferLineMoveNext<CR>')
 vim.keymap.set('n', 'ZZ', function()
     if vim.bo.modified then
         vim.cmd.write()

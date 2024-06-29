@@ -35,3 +35,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true, silent = true})
+
+vim.keymap.set('n', '\\q\\q', ':set nonumber<CR>:set norelativenumber<CR>', opts)
+vim.keymap.set('n', '\\q\\e', ':set number<CR>:set relativenumber<CR>', opts)

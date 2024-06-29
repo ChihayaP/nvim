@@ -24,3 +24,8 @@ vim.opt.hlsearch = false -- do not highlight matches
 vim.opt.ignorecase = true -- ignore case in searches by default
 vim.opt.smartcase = true -- but make it case sensitive if an uppercase is entered
 vim.opt.scrolloff = 8
+-- Resume frm sessions
+vim.opt.guifont = { "Sauce Code Pro", "h10" }
+
+vim.opt.list = true
+vim.opt.listchars = { space = "." }
